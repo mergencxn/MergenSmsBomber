@@ -8,7 +8,12 @@ import threading
 
 # MERGEN ASCII Sanatı Başlangıcı
 print("""
-MERGEN CAKMAK SOCIAL DEVICE
+  __  __  ______  _____    _____  ______  _   _ 
+ |  \/  ||  ____||  __ \  / ____||  ____|| \ | |
+ | \  / || |__   | |__) || |  __ | |__   |  \| |
+ | |\/| ||  __|  |  _  / | | |_ ||  __|  | . ` |
+ | |  | || |____ | | \ \ | |__| || |____ | |\  |
+ |_|  |_||______||_|  \_\ \_____||______||_| \_|
 """)
 # MERGEN ASCII Sanatı 
 
@@ -27,7 +32,7 @@ while 1:
                                  discord: devilwounds\n  
     """.format(Fore.LIGHTCYAN_EX, len(servisler_sms), Style.RESET_ALL, Fore.LIGHTRED_EX))
     try:
-        menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (own özel)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
+        menu = (input(Fore.LIGHTMAGENTA_EX + " 1- SMS Gönder (Normal)\n\n 2- SMS Gönder (Hızlı)\n\n 3- Çıkış\n\n" + Fore.LIGHTYELLOW_EX + " Seçim: "))
         if menu == "":
             continue
         menu = int(menu) 
