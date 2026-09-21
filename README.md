@@ -20,4 +20,3 @@ terminale pip install requests ve pip install colorama yazınız
 terminali kapatıp yeniden başlatın
 
 
-Not=enough reborn ve codzanın kodlarından yararlanılmıştır
